@@ -109,7 +109,7 @@ GAP_SIMILARITY_THRESHOLD=0.38
 
 ---
 
-## 🎬 Running the Streamlit Web Application
+##  Running the Streamlit Web Application
 
 Launch the UI locally:
 ```bash
