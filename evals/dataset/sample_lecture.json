@@ -1,0 +1,93 @@
+{
+  "lecture_id": "bench_lec_intro_ai",
+  "title": "Introduction to Neural Alignment and Dynamic Programming",
+  "video_duration": 120.0,
+  "transcript": [
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "text": "Welcome everyone. Today we are discussing sequence alignment algorithms in computational biology and speech."
+    },
+    {
+      "start": 15.0,
+      "end": 35.0,
+      "text": "As you can see on slide one, sequence alignment finds the optimal correspondence between two time series."
+    },
+    {
+      "start": 35.0,
+      "end": 55.0,
+      "text": "Now, pay attention because this is NOT on the slides: in next week's midterm, remember that dynamic time warping requires a strictly monotonic step constraint to prevent temporal loops!"
+    },
+    {
+      "start": 55.0,
+      "end": 80.0,
+      "text": "Moving to slide two, here is the dynamic programming recurrence relation for global sequence alignment."
+    },
+    {
+      "start": 80.0,
+      "end": 105.0,
+      "text": "Notice that the time complexity is order O(N times M). Professor's verbal tip: for very long lectures, you should use banded diagonal search to cut runtime by 70 percent."
+    },
+    {
+      "start": 105.0,
+      "end": 120.0,
+      "text": "That concludes our overview. Please review the practice problems before our next session."
+    }
+  ],
+  "slides": [
+    {
+      "slide_index": 0,
+      "text": "Sequence Alignment Fundamentals\n- Definitions\n- Optimal correspondence between two time series\n- Applications in bioinformatics and speech"
+    },
+    {
+      "slide_index": 1,
+      "text": "Dynamic Programming Recurrence\n- Global sequence alignment formulation\n- Time Complexity: O(N * M)\n- Memory Requirements: O(N * M)"
+    }
+  ],
+  "ground_truth_slide_alignments": [
+    {
+      "slide_index": 0,
+      "start_time": 0.0,
+      "end_time": 55.0
+    },
+    {
+      "slide_index": 1,
+      "start_time": 55.0,
+      "end_time": 120.0
+    }
+  ],
+  "ground_truth_verbal_gaps": [
+    {
+      "start_time": 35.0,
+      "end_time": 55.0,
+      "gap_type": "emphasis",
+      "summary": "Midterm hint: Dynamic time warping requires monotonic step constraint to prevent temporal loops."
+    },
+    {
+      "start_time": 80.0,
+      "end_time": 105.0,
+      "gap_type": "caveat",
+      "summary": "Banded diagonal search optimizes runtime by 70% for long lectures."
+    }
+  ],
+  "sample_quiz_eval_items": [
+    {
+      "question": "What constraint is required by dynamic time warping to prevent temporal loops according to the professor's midterm hint?",
+      "correct_answer": "Strictly monotonic step constraint",
+      "citation": {
+        "start": 35.0,
+        "end": 55.0,
+        "quote": "remember that dynamic time warping requires a strictly monotonic step constraint to prevent temporal loops!"
+      }
+    },
+    {
+      "question": "What is the theoretical time complexity of global sequence alignment shown on slide two?",
+      "correct_answer": "O(N * M)",
+      "citation": {
+        "start": 80.0,
+        "end": 105.0,
+        "quote": "Notice that the time complexity is order O(N times M)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "bench_lec_intro_ai": {
+    "slide_alignment_accuracy": 1.0,
+    "gap_precision": 1.0,
+    "citation_support_rate": 1.0,
+    "quiz_answerability": 0.8
+  }
+}
