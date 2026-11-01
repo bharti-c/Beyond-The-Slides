@@ -1,10 +1,9 @@
-# 🎓 Lecture-to-Living-Course
-
+# Beyond the slides
 > **Multimodal AI Agent for University Students**: Aligns lecture video, presentation slides, and handwritten notes onto one master timeline, identifies what the professor said that is **NOT** on the slides (verbal gaps), and produces an interactive mind map, a dual-host podcast recap, and citation-verified quiz questions linked to exact video timestamps.
 
 ---
 
-## 🌟 Key Features
+# Key Features
 
 1. **Triple-Modality Temporal Alignment**:
    - Synchronizes lecture video, PDF slides, and photos of student handwritten notes into a **Unified Master Timeline**.
@@ -28,7 +27,7 @@
 
 ---
 
-## 🏗️ 10-Node LangGraph Architecture
+##  10-Node LangGraph Architecture
 
 ```mermaid
 flowchart TD
@@ -54,7 +53,7 @@ flowchart TD
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Layer | Component | Notes |
 |---|---|---|
@@ -69,7 +68,7 @@ flowchart TD
 
 ---
 
-## 🚀 Quickstart & Setup
+##  Quickstart & Setup
 
 ### 1. Prerequisites
 - Python 3.11
@@ -127,17 +126,17 @@ Open your browser at `http://localhost:8501`.
    - **Lecture Video**: `sample_data/sample_video.mp4`
    - **Slides PDF**: `sample_data/sample_slides.pdf`
    - **Handwritten Notes**: `sample_data/sample_notes.png`
-3. Click **"🚀 Launch Living Course Pipeline"**.
+3. Click **" Launch Living Course Pipeline"**.
 4. Explore the 5 interactive tabs:
-   - **🕒 Timeline**: Compare slides and notes synced to the video.
-   - **🔍 Verbal Gaps**: Inspect professor's off-slide comments, caveats, and exam hints.
-   - **🌳 Mind Map**: Interact with the concept network and click to seek video timestamps.
-   - **🎙️ Podcast**: Play the audio recap and read along with timestamped dialogue.
-   - **📝 Quiz**: Test yourself with 10 questions backed by LLM-verified citations.
+   - * Timeline*: Compare slides and notes synced to the video.
+   - * Verbal Gaps*: Inspect professor's off-slide comments, caveats, and exam hints.
+   - * Mind Map*: Interact with the concept network and click to seek video timestamps.
+   - * Podcast*: Play the audio recap and read along with timestamped dialogue.
+   - * Quiz*: Test yourself with 10 questions backed by LLM-verified citations.
 
 ---
 
-## 🧪 Running Unit Tests & Benchmarks
+##  Running Unit Tests & Benchmarks
 
 ### 1. Unit Tests (Alignment & Citation Logic)
 ```bash
@@ -160,7 +159,7 @@ Results are printed to the console, saved in `evals/eval_results.json`, and reco
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ReLect/
